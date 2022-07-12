@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background: url(urna.jpg) no-repeat 50% -10% gray;
+    font-family: Verdana, sans-serif;
+}
+.conteudo{
+    width: 50%;
+    margin: 120px 320px 0;
+
+}
+header img{
+    margin: 0 auto;
+    display: block;
+}
+header h1{
+    text-align: center;
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+.input input{
+    display: block;
+    margin: 0 auto 10px;
+    width: 40%;
+    height: 30px;
+    font-size: 16pt;
+    position: relative;
+    left: -50px;
+}
+.input label{
+    display: block;
+    text-align: center;
+    position: relative;
+    left: -50px;
+}
+.button{
+    margin: 30px 46px;
+    position: relative;
+    left: 160px;
+}
+.button input, .resultado input{
+    margin: 0; 
+    padding: 10px 20px;
+    border: 0;
+}
+.confirmar{
+    background: rgb(105, 179, 2);
+
+}
+.corrigir{
+    background: lightgray;
+}
+.resultado input{
+    margin-right: 137.5px;
+    position: relative;
+    top: -10px;
+    background: rgba(0, 128, 0);
+    left: 300px;
+}
+input[type="submit"], input[type="reset"], input[type="button"]{
+    cursor: pointer;
+}
+.pres{
+    position: absolute;
+    width: 100px;
+    margin: 38px;
+    top: 100px; 
+}
+.gov{
+    position:absolute;
+    width: 100px;
+    margin: 38px;
+    top: 250px;
+}
